@@ -17,18 +17,26 @@
 </nav>
 <div class="container">
 <div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Gene Information</h3><small>Textual gene information in a paragrah format</small>
+  <div class="panel-heading _widget_heading">
+    <h2 class="panel-title">Gene Information</h2><small>Textual gene information in a paragrah format</small>
   </div>
-  <div class="panel-body _gene_info">Loading&hellip;</div>
+  <div class="panel-body _gene_info _widget">Loading&hellip;</div>
 </div>
 <div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">VEP</h3><small>A quick version of Variation Effect Predictor</small>
+  <div class="panel-heading _widget_heading">
+    <h2 class="panel-title">VEP</h2><small>A smaller version of Variation Effect Predictor</small>
   </div>
-  <div class="panel-body _vep">Loading&hellip;</div>
+  <div class="panel-body _vep _widget">Loading&hellip;</div>
 </div>
 </div>
+<div class="container"><p><small>&copy; <a href="http://www.sanger.ac.uk/">WTSI</a>/<a href="http://www.ebi.ac.uk/">EMBL-EBI</a></small></p></div>
+
+<!-- JS for current page -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- JS for current page ends --> 
+
+<!-- JS for widgets -->
 <script type="text/javascript" src="http://test-1.ensembl.org/Widgets/core.js"></script>
 <script type="text/javascript" src="http://test-1.ensembl.org/Widgets/species_info"></script>
 <script type="text/javascript">
@@ -63,5 +71,8 @@ function() {
   };
 });
 </script>
+<!-- JS for widgets ends -->
+
 </body>
 </html>
+
